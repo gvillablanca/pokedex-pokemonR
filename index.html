@@ -8,16 +8,42 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-  <div class="row titleMain">
-  	<div class="container">
-  		<div class="col-md-12 col-sm-12">
-  			<h1>Pokedex</h1>
-  		</div>
-  	</div>
+
+<header class="masthead">
+<!--Encabezado-->
+    <div class="row titleMain">
+    <div class="container">
+      <div class="col-md-12 col-sm-12">
+        <h1>Pokedex</h1>
+      </div>
+    </div>
   </div>
-  <div class="row">
+  <!--Buscador-->
+    <div class="row inputCenter">
+    <div class="container">
+      <div class="col-md-12 col-sm-12">
+        <div class="site-container">
+      <form id="search-form">
+        <input id="search-keyword" type="text" name="search-keyword" placeholder="encuentra tu pokemón" required>
+        <button type="submit-btn" type="submit" value="submit">Buscar</button>
+      </form>
+    </div>
+      </div>
+    </div>
+  </div>
+  </header>
+  <!--Posicionando pokemon buscado-->
+<div id="myPokemon">
+  
+</div>
+  
+  
+<!--Pokemones generados por default-->
+  <div class="row boxPokemones">
   	<div class="container">
-  		<div id="contPokemon" class="col-md-11 col-sm-11"></div>
+  		<div id="contPokemon" class="col-md-12 col-sm-12">
+        
+      </div>
   	</div>
   </div>
 

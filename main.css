@@ -1,8 +1,15 @@
 /*font-family: 'Roboto', sans-serif;*/
 body{
   font-family: 'Roboto', sans-serif;
-}
-
-.titleMain{
   text-align: center;
 }
+
+.titleMain , .inputCenter , .boxPokemones{
+  text-align: center;
+}
+
+.pokemonBox {
+  display:inline-block;
+  margin: 0.5em;
+}
+

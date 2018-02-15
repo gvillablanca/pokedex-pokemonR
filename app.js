@@ -1,7 +1,6 @@
 const form = document.getElementById('search-form');
 	
 const param = $('.search-keyword').val(); 
-const pokeName = JSON.parse(param);
 //const param = document.getElementById('search-keyword').val;
 //asignamos la url a la variable getPokemon
 $(document).ready(() => {

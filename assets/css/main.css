@@ -2,6 +2,7 @@
 body{
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  background-color: #ffcc03;
 }
 
 .titleMain , .inputCenter , .boxPokemones{
@@ -13,3 +14,13 @@ body{
   margin: 0.5em;
 }
 
+.boxResults {
+	margin: 1em;
+	background-color: #fbfbe9;
+	border: 0.5em solid #ff0000;
+	border-radius: 5%;
+}
+
+.boxResults h5{
+	font-weight: 700;
+}
